@@ -8,28 +8,33 @@
     </head>
 
     <body>
-        <header>
-            <nav aria-label="Navigation">
-                <a href="index.html">Front page</a>
-                <a href="about.html">About me</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html">Skills</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+        <a class="skip-link" href="#main">Skip to main content</a>
+        <header class="site-container">
+            <div class="site-brand">
+                <h1 class="site-title"><a href="index.html">Elsi Häkkinen</a></h1>
+                <nav aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Front page</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <main>
+        <main id="main" class="site-container">
             <h1>Who is Elsi?</h1>
             <p>
                 I am a full-stack developer studying in Tampere University. My interests include usability, backend architectures and system security.
             </p>
 
             <img src="images/profile.jpg"
-                alt="A picture of Elsi standing in front of sunset">
+                alt="A picture of Elsi standing in front of sunset" class="profile">
 
         </main>
-
-        <footer>
+        <footer class="site-container">
             <p>© 2026 Elsi Häkkinen</p>
         </footer>
     </body>

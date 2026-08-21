@@ -8,46 +8,42 @@
     </head>
 
     <body>
-        <header>
-            <nav aria-label="Navigation">
-                <a href="index.html">Front page</a>
-                <a href="about.html">About me</a>
-                <a href="projects.html">Projects</a>
-                <a href="skills.html">Skills</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+        <a class="skip-link" href="#main">Skip to main content</a>
+        <header class="site-container">
+            <div class="site-brand">
+                <h1 class="site-title"><a href="index.html">Elsi Häkkinen</a></h1>
+                <nav aria-label="Main navigation">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Front page</a></li>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <main>
+        <main id="main" class="site-container">
             <h1>What can I do?</h1>
-            <p>
-                My strength lies in my ability to understand systems on a structural level.
-            </p>
+            <p>My strength lies in my ability to understand systems on a structural level.</p>
 
             <section>
                 <h2>Programming and full-stack</h2>
-                <p>
-                    From backend to frontend.
-
-                    C++, Python, Java, JavaScript, React, Vue.js, HTML, CSS.
-
-                    Git, Docker, Kanban.
-                </p>
+                <p>From backend to frontend.</p>
+                <p>C++, Python, Java, JavaScript, React, Vue.js, HTML, CSS. Git, Docker, Kanban.</p>
             </section>
 
             <section>
                 <h2>User experience and interfaces</h2>
-                <p>
-                    Prototypes, UX evaluations, accessible design solutions. I know my way around Figma and Qt.
-                </p>
+                <p>Prototypes, UX evaluations, accessible design solutions. I know my way around Figma and Qt.</p>
             </section>
 
-            <img src="images/profile.jpg"
-                alt="A picture of Elsi standing in front of sunset">
+            <img src="images/profile.jpg" alt="A picture of Elsi standing in front of sunset" class="profile">
 
         </main>
 
-        <footer>
+        <footer class="site-container">
             <p>© 2026 Elsi Häkkinen</p>
         </footer>
     </body>
